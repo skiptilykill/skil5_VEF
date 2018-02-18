@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80em;
+    margin: auto;
+    grid-gap: 1em;
+    font-family: 'Concert One', cursive;
+    background: #403B4A; 
+	background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A); 
+	background: linear-gradient(to right, #E7E9BB, #403B4A);
+}
+img {
+  border-radius: 1em; 
+}
+.event{
+	border:0.75px dotted;
+	border-radius: 5px;
+	background-color: rgba(150, 150, 150, 0.5);
+	padding:5px;
+}
